@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "awkward-instrument-balance:item/iron_plate"
+  }
+}

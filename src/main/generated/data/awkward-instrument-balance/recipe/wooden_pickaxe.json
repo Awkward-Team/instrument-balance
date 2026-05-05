@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": "#minecraft:logs",
+    "s": "minecraft:stick",
+    "t": "minecraft:string"
+  },
+  "pattern": [
+    "mmm",
+    "tst",
+    " s "
+  ],
+  "result": {
+    "id": "minecraft:wooden_pickaxe"
+  }
+}

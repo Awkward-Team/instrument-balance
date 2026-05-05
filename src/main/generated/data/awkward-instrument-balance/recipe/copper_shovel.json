@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": "#minecraft:copper_tool_materials",
+    "s": "minecraft:stick",
+    "t": "minecraft:string"
+  },
+  "pattern": [
+    " m ",
+    "tst",
+    " s "
+  ],
+  "result": {
+    "id": "minecraft:copper_shovel"
+  }
+}

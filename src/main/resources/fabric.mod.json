@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "awkward-instrument-balance",
+	"version": "${version}",
+	"name": "Awkward Instrument Balance",
+	"description": "A lightweight valilla-like overhaul of early game progression implemented as a Minecraft Mod. Make the beginning of the game more meaningful through smart rebalancing of tools and resourse drops.",
+	"authors": [
+		"Awkward Team"
+	],
+	"contact": {
+		"sources": "https://github.com/Awkward-Team/awkward-instrument-balance"
+	},
+	"license": "MIT",
+	"icon": "assets/awkward-instrument-balance/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.awkwardinstrumentbalance.AIB"
+		],
+		"client": [
+			"com.awkwardinstrumentbalance.client.AIBClient"
+		],
+		"fabric-datagen": [
+			"com.awkwardinstrumentbalance.client.datagen.AIBDataGeneration"
+		],
+		"preLaunch": [ "com.awkwardinstrumentbalance.AIBPreLaunch" ]
+	},
+	"mixins": [
+		"awkward-instrument-balance.mixins.json",
+		{
+			"config": "awkward-instrument-balance.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "26.1.*",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}

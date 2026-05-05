@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": "awkward-instrument-balance:iron_plate",
+    "s": "minecraft:stick",
+    "t": "minecraft:string"
+  },
+  "pattern": [
+    " tm",
+    " st",
+    "s  "
+  ],
+  "result": {
+    "id": "minecraft:iron_spear"
+  }
+}

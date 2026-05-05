@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": "#minecraft:stone_tool_materials",
+    "s": "minecraft:stick",
+    "t": "minecraft:string"
+  },
+  "pattern": [
+    "mmt",
+    "tst",
+    " s "
+  ],
+  "result": {
+    "id": "minecraft:stone_hoe"
+  }
+}
